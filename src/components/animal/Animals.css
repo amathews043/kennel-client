@@ -1,0 +1,21 @@
+.animalContainer {
+  margin: 0 5rem;
+}
+
+.animals {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.animal {
+  flex-basis: 24%;
+  margin: 0.5rem 1em;
+  padding: 0.5rem 1rem;
+  border: 1px solid goldenrod;
+}
+
+.animals__search {
+  width: 25rem;
+}
